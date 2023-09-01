@@ -1,0 +1,1 @@
+parallel -j20 "python3 main.py {1}" ::: {0..1560}
